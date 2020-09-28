@@ -16,13 +16,13 @@
 
     exports = ___CSS_LOADER_API_IMPORT___(true); // Module
 
-    exports.push([module.i, "html {\n  overflow: scroll;\n  overflow-x: hidden;\n}\n::-webkit-scrollbar {\n  width: 0px;  /* Remove scrollbar space */\n  background: transparent;  /* Optional: just make scrollbar invisible */\n}\n/* Optional: show position indicator in red */\n::-webkit-scrollbar-thumb {\n  background: rgb(108, 107, 107);\n  border-radius: 20px;\n}\nbody{\n  display:flex;\n  flex-direction:column;\n}\n", "", {
+    exports.push([module.i, "html {\r\n  overflow: scroll;\r\n  overflow-x: hidden;\r\n}\r\n::-webkit-scrollbar {\r\n  width: 0px;  /* Remove scrollbar space */\r\n  background: transparent;  /* Optional: just make scrollbar invisible */\r\n}\r\n/* Optional: show position indicator in red */\r\n::-webkit-scrollbar-thumb {\r\n  background: rgb(108, 107, 107);\r\n  border-radius: 20px;\r\n}\r\nbody{\r\n  display:flex;\r\n  flex-direction:column;\r\n}\r\n", "", {
       "version": 3,
       "sources": ["styles.css"],
       "names": [],
       "mappings": "AAAA;EACE,gBAAgB;EAChB,kBAAkB;AACpB;AACA;EACE,UAAU,GAAG,2BAA2B;EACxC,uBAAuB,GAAG,4CAA4C;AACxE;AACA,6CAA6C;AAC7C;EACE,8BAA8B;EAC9B,mBAAmB;AACrB;AAEA;EACE,YAAY;EACZ,qBAAqB;AACvB",
       "file": "styles.css",
-      "sourcesContent": ["html {\n  overflow: scroll;\n  overflow-x: hidden;\n}\n::-webkit-scrollbar {\n  width: 0px;  /* Remove scrollbar space */\n  background: transparent;  /* Optional: just make scrollbar invisible */\n}\n/* Optional: show position indicator in red */\n::-webkit-scrollbar-thumb {\n  background: rgb(108, 107, 107);\n  border-radius: 20px;\n}\n\nbody{\n  display:flex;\n  flex-direction:column;\n}\n"]
+      "sourcesContent": ["html {\r\n  overflow: scroll;\r\n  overflow-x: hidden;\r\n}\r\n::-webkit-scrollbar {\r\n  width: 0px;  /* Remove scrollbar space */\r\n  background: transparent;  /* Optional: just make scrollbar invisible */\r\n}\r\n/* Optional: show position indicator in red */\r\n::-webkit-scrollbar-thumb {\r\n  background: rgb(108, 107, 107);\r\n  border-radius: 20px;\r\n}\r\n\r\nbody{\r\n  display:flex;\r\n  flex-direction:column;\r\n}\r\n"]
     }]); // Exports
 
     module.exports = exports;
